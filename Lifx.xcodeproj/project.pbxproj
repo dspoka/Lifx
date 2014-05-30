@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA16D94719394311009452CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D94619394311009452CC /* Foundation.framework */; };
+		DA16D94919394311009452CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D94819394311009452CC /* CoreGraphics.framework */; };
+		DA16D94B19394311009452CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D94A19394311009452CC /* UIKit.framework */; };
+		DA16D95119394311009452CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA16D94F19394311009452CC /* InfoPlist.strings */; };
+		DA16D95319394311009452CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA16D95219394311009452CC /* main.m */; };
+		DA16D95719394311009452CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA16D95619394311009452CC /* AppDelegate.m */; };
+		DA16D95A19394311009452CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA16D95819394311009452CC /* Main.storyboard */; };
+		DA16D95D19394311009452CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA16D95C19394311009452CC /* ViewController.m */; };
+		DA16D95F19394311009452CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA16D95E19394311009452CC /* Images.xcassets */; };
+		DA16D96619394311009452CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D96519394311009452CC /* XCTest.framework */; };
+		DA16D96719394311009452CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D94619394311009452CC /* Foundation.framework */; };
+		DA16D96819394311009452CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D94A19394311009452CC /* UIKit.framework */; };
+		DA16D97019394311009452CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA16D96E19394311009452CC /* InfoPlist.strings */; };
+		DA16D97219394311009452CC /* LifxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA16D97119394311009452CC /* LifxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA16D96919394311009452CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA16D93B19394311009452CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA16D94219394311009452CC;
+			remoteInfo = Lifx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA16D94319394311009452CC /* Lifx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA16D94619394311009452CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA16D94819394311009452CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA16D94A19394311009452CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA16D94E19394311009452CC /* Lifx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lifx-Info.plist"; sourceTree = "<group>"; };
+		DA16D95019394311009452CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA16D95219394311009452CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA16D95419394311009452CC /* Lifx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lifx-Prefix.pch"; sourceTree = "<group>"; };
+		DA16D95519394311009452CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA16D95619394311009452CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA16D95919394311009452CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA16D95B19394311009452CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA16D95C19394311009452CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA16D95E19394311009452CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA16D96419394311009452CC /* LifxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA16D96519394311009452CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DA16D96D19394311009452CC /* LifxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifxTests-Info.plist"; sourceTree = "<group>"; };
+		DA16D96F19394311009452CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA16D97119394311009452CC /* LifxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA16D94019394311009452CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA16D94919394311009452CC /* CoreGraphics.framework in Frameworks */,
+				DA16D94B19394311009452CC /* UIKit.framework in Frameworks */,
+				DA16D94719394311009452CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA16D96119394311009452CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA16D96619394311009452CC /* XCTest.framework in Frameworks */,
+				DA16D96819394311009452CC /* UIKit.framework in Frameworks */,
+				DA16D96719394311009452CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA16D93A19394311009452CC = {
+			isa = PBXGroup;
+			children = (
+				DA16D94C19394311009452CC /* Lifx */,
+				DA16D96B19394311009452CC /* LifxTests */,
+				DA16D94519394311009452CC /* Frameworks */,
+				DA16D94419394311009452CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA16D94419394311009452CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA16D94319394311009452CC /* Lifx.app */,
+				DA16D96419394311009452CC /* LifxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA16D94519394311009452CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA16D94619394311009452CC /* Foundation.framework */,
+				DA16D94819394311009452CC /* CoreGraphics.framework */,
+				DA16D94A19394311009452CC /* UIKit.framework */,
+				DA16D96519394311009452CC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA16D94C19394311009452CC /* Lifx */ = {
+			isa = PBXGroup;
+			children = (
+				DA16D95519394311009452CC /* AppDelegate.h */,
+				DA16D95619394311009452CC /* AppDelegate.m */,
+				DA16D95819394311009452CC /* Main.storyboard */,
+				DA16D95B19394311009452CC /* ViewController.h */,
+				DA16D95C19394311009452CC /* ViewController.m */,
+				DA16D95E19394311009452CC /* Images.xcassets */,
+				DA16D94D19394311009452CC /* Supporting Files */,
+			);
+			path = Lifx;
+			sourceTree = "<group>";
+		};
+		DA16D94D19394311009452CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA16D94E19394311009452CC /* Lifx-Info.plist */,
+				DA16D94F19394311009452CC /* InfoPlist.strings */,
+				DA16D95219394311009452CC /* main.m */,
+				DA16D95419394311009452CC /* Lifx-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA16D96B19394311009452CC /* LifxTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA16D97119394311009452CC /* LifxTests.m */,
+				DA16D96C19394311009452CC /* Supporting Files */,
+			);
+			path = LifxTests;
+			sourceTree = "<group>";
+		};
+		DA16D96C19394311009452CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA16D96D19394311009452CC /* LifxTests-Info.plist */,
+				DA16D96E19394311009452CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA16D94219394311009452CC /* Lifx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA16D97519394311009452CC /* Build configuration list for PBXNativeTarget "Lifx" */;
+			buildPhases = (
+				DA16D93F19394311009452CC /* Sources */,
+				DA16D94019394311009452CC /* Frameworks */,
+				DA16D94119394311009452CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lifx;
+			productName = Lifx;
+			productReference = DA16D94319394311009452CC /* Lifx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA16D96319394311009452CC /* LifxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA16D97819394311009452CC /* Build configuration list for PBXNativeTarget "LifxTests" */;
+			buildPhases = (
+				DA16D96019394311009452CC /* Sources */,
+				DA16D96119394311009452CC /* Frameworks */,
+				DA16D96219394311009452CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA16D96A19394311009452CC /* PBXTargetDependency */,
+			);
+			name = LifxTests;
+			productName = LifxTests;
+			productReference = DA16D96419394311009452CC /* LifxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA16D93B19394311009452CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Spokoyny";
+				TargetAttributes = {
+					DA16D96319394311009452CC = {
+						TestTargetID = DA16D94219394311009452CC;
+					};
+				};
+			};
+			buildConfigurationList = DA16D93E19394311009452CC /* Build configuration list for PBXProject "Lifx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA16D93A19394311009452CC;
+			productRefGroup = DA16D94419394311009452CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA16D94219394311009452CC /* Lifx */,
+				DA16D96319394311009452CC /* LifxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA16D94119394311009452CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA16D95F19394311009452CC /* Images.xcassets in Resources */,
+				DA16D95119394311009452CC /* InfoPlist.strings in Resources */,
+				DA16D95A19394311009452CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA16D96219394311009452CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA16D97019394311009452CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA16D93F19394311009452CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA16D95D19394311009452CC /* ViewController.m in Sources */,
+				DA16D95719394311009452CC /* AppDelegate.m in Sources */,
+				DA16D95319394311009452CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA16D96019394311009452CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA16D97219394311009452CC /* LifxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA16D96A19394311009452CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA16D94219394311009452CC /* Lifx */;
+			targetProxy = DA16D96919394311009452CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA16D94F19394311009452CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA16D95019394311009452CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA16D95819394311009452CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA16D95919394311009452CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA16D96E19394311009452CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA16D96F19394311009452CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA16D97319394311009452CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA16D97419394311009452CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA16D97619394311009452CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lifx/Lifx-Prefix.pch";
+				INFOPLIST_FILE = "Lifx/Lifx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA16D97719394311009452CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lifx/Lifx-Prefix.pch";
+				INFOPLIST_FILE = "Lifx/Lifx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DA16D97919394311009452CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lifx.app/Lifx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lifx/Lifx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LifxTests/LifxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DA16D97A19394311009452CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lifx.app/Lifx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lifx/Lifx-Prefix.pch";
+				INFOPLIST_FILE = "LifxTests/LifxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA16D93E19394311009452CC /* Build configuration list for PBXProject "Lifx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA16D97319394311009452CC /* Debug */,
+				DA16D97419394311009452CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA16D97519394311009452CC /* Build configuration list for PBXNativeTarget "Lifx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA16D97619394311009452CC /* Debug */,
+				DA16D97719394311009452CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA16D97819394311009452CC /* Build configuration list for PBXNativeTarget "LifxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA16D97919394311009452CC /* Debug */,
+				DA16D97A19394311009452CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA16D93B19394311009452CC /* Project object */;
+}
