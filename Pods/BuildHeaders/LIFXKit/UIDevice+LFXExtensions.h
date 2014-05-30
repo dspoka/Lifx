@@ -1,0 +1,1 @@
+../../LIFXKit/LIFXKit/Extensions/Categories/UIDevice+LFXExtensions.h

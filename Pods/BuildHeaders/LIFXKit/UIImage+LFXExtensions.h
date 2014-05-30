@@ -1,0 +1,1 @@
+../../LIFXKit/LIFXKit/Extensions/Categories/UIImage+LFXExtensions.h

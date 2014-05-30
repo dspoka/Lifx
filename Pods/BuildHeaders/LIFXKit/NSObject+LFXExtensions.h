@@ -1,0 +1,1 @@
+../../LIFXKit/LIFXKit/Extensions/Categories/NSObject+LFXExtensions.h
